@@ -15,5 +15,5 @@ def reverse_each_word(string)
     final_string_array << rev_word
     array_count +=1
   end #string array operation
-  finalstring
+  final_string_array
 end
