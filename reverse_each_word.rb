@@ -1,9 +1,10 @@
 require 'pry'
 
 def reverse_each_word(string)
-  newstring = string.split(" ") #separates string by words
+  newstring = string.split(" ") #separates string by spaces
   final_string_array = []
   array_count = 0
+  binding.pry
   newstring.each do |word|   #do for each word in array
       word_to_rev = newstring[array_count] #word currently operating on
       rev_word= []       #empty array to hold reversed string
