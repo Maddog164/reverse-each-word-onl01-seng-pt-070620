@@ -19,6 +19,6 @@ def reverse_each_word(string)
     end #reversing individual word
   end #string array operation
   word_to_reverse = newstring
-  
+
   finalstring
 end
